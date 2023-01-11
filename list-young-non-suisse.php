@@ -25,13 +25,13 @@
       </tr>
     </thead>
     <tbody>
-    <!--   <tr>
+      <!-- <tr>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
       </tr> -->
-      <?php writeFilteredPersons("all", $persons); //writeAllPersons(); ?>
+      <?php writeFilteredPersons("youngNonswiss", $persons); ?>
     </tbody>
   </table>
 </body>

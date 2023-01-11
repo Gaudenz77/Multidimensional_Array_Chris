@@ -25,13 +25,13 @@
       </tr>
     </thead>
     <tbody>
-    <!--   <tr>
+     <!--  <tr>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-      </tr> -->
-      <?php writeFilteredPersons("all", $persons); //writeAllPersons(); ?>
+      </tr>    KANN weggelassen werden, BODY MUSS STEHEN-->
+      <?php  writeFilteredPersons("personIsYoungerThan40", $persons); ?> <!--  // writeYoungerThan40(); -->
     </tbody>
   </table>
 </body>

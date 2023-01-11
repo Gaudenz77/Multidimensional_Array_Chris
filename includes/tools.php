@@ -1,8 +1,8 @@
 <?php
 
-function prettyPrint($value) {
+function prettyPrint($a) {
     print "<pre>";
-    print_r($value);
+    print_r($a);
     print "</pre>";
 }
 
