@@ -34,5 +34,18 @@
       <?php writeFilteredPersons("all", $persons); //writeAllPersons(); ?>
     </tbody>
   </table>
+  <div>
+  <?php /*prettyPrint($_POST); */?>
+
+<?php /*echo print_r($_POST); */?>
+
+Welcome <?php echo $_POST["fName"]; ?>!<br>
+
+
+Your first name is: <?php echo $_POST["fName"]; ?><br>
+Your last name is: <?php echo $_POST["lName"]; ?><br>
+Your age is: <?php echo $_POST["age"]; ?><br>
+Your country of origin: <?php echo $_POST["country"]; ?><br>
+  </div>
 </body>
 </html>
