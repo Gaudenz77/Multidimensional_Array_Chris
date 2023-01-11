@@ -11,28 +11,21 @@
     <script src="./js/first03.js" defer></script>
 </head>
 <body>
-<?php
-    require "includes/persons.php"; 
-    require "includes/tools.php" 
-?>
-<table class="table">
-    <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Age</th>
-        <th>Country Of Origin</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>25</td>
-        <td>USA</td>
-      </tr>
-      <?php // writeAllPersons(); ?>
-    </tbody>
-  </table>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="btn btn-outline-success" href="list-all.php">Alle</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-success" href="list-younger-than-40.php">| &lt;= 40</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-success" href="list-young-non-suisse.php">| &lt;= 30 AND NOT Schweiz</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
 </body>
 </html>

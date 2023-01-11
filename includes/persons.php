@@ -13,6 +13,18 @@ define("PERSONS", array(
         "age"=> 86,
         "country"=> "USA"
     ),
+    array(
+        "firstName" => "John",
+        "lastName" => "Doe",
+        "age"=> 86,
+        "country"=> "Germany"
+    ),
+    array(
+        "firstName" => "Peter",
+        "lastName" => "Towers",
+        "age"=> 86,
+        "country"=> "USA"
+    ),
     // TODO
 ));
 
