@@ -12,8 +12,8 @@
 </head>
 <body>
 <?php
-    require "includes/persons.php"; 
-    require "includes/tools.php" 
+    include "includes/persons.php"; 
+    include "includes/tools.php";
 ?>
 <table class="table">
     <thead>
@@ -31,7 +31,7 @@
         <td>25</td>
         <td>USA</td>
       </tr>
-      <?php // writeAllPersons(); ?>
+      <?php writeAllPersons(); ?>
     </tbody>
   </table>
 </body>
