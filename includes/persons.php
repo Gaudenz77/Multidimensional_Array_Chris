@@ -144,6 +144,11 @@ array(
 );
 
 
+$fName = $_POST['firstName'];
+$lName = $_POST['lastName'];
+$age = $_POST['age'];
+$country = $_POST['country'];
+
  // prettyPrint($persons);
 
 ?>
